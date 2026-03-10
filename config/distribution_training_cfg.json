@@ -1,0 +1,92 @@
+{ "new applicants":{
+    "credit_score": {
+        "type": "numeric",
+        "direction": "higher_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "rent_mortgage_payment": {
+        "type": "numeric",
+        "direction": "lower_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "monthly_income": {
+        "type": "numeric",
+        "direction": "higher_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "ln_dti_ratio": {
+        "type": "numeric",
+        "direction": "lower_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "total_months_employed":{
+        "type": "numeric",
+        "direction": "higher_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "neg_balance": {
+        "type": "binary",
+        "good_value": 0
+    },
+    "no_deposit": {
+        "type": "binary",
+        "good_value": 0
+    },
+    "late_payment": {
+        "type": "binary",
+        "good_value": 0
+    }
+},
+"opt ins":
+{"credit_score": {
+        "type": "numeric",
+        "direction": "higher_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "monthly_income": {
+        "type": "numeric",
+        "direction": "higher_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "ln_dti_ratio": {
+        "type": "numeric",
+        "direction": "lower_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "total_months_employed":{
+        "type": "numeric",
+        "direction": "higher_is_better",
+        "quantiles": 20,
+        "iqr_lower": 0.25,
+        "iqr_upper": 0.90
+    },
+    "neg_balance": {
+        "type": "binary",
+        "good_value": 0
+    },
+    "no_deposit": {
+        "type": "binary",
+        "good_value": 0
+    },
+    "late_payment": {
+        "type": "binary",
+        "good_value": 0
+    }
+}
+}

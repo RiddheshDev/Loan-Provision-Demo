@@ -1,0 +1,22 @@
+{ "new applicants":
+    {
+    "features": ["account_number", "rent_mortgage_payment", "current_employer",
+       "address", "hire_date", "job_title", "monthly_income", "status",
+       "email", "ln_dti_ratio", "months_employed", "years_employed",
+       "credit_score", "credit_score_date", "ln_late_1_29", "ln_late_30_59",
+       "ln_late_60_89", "ln_late_90_119", "ln_late_120_149", "ln_late_150_179",
+       "ln_late_180_plus", "neg_balance", "no_deposit", "late_payment",
+       "total_months_employed"],
+    "dependent" : "status"
+    },
+    "opt ins":
+    {
+    "features": ["account_number", "full_name", "monthly_income", "status", "email",
+       "ln_dti_ratio", "months_employed", "years_employed", "credit_score",
+       "credit_score_date", "ln_late_1_29", "ln_late_30_59", "ln_late_60_89",
+       "ln_late_90_119", "ln_late_120_149", "ln_late_150_179",
+       "ln_late_180_plus", "neg_balance", "no_deposit", "late_payment",
+       "total_months_employed"],
+    "dependent" : "status"
+    }
+}

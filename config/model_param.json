@@ -1,0 +1,13 @@
+{
+    "logistic": {
+        "best_params": {
+            "solver": "saga",
+            "penalty": "l2",
+            "max_iter": 500,
+            "class_weight": "balanced",
+            "C": 0.1
+        },
+        "best_score": 0.8665446521925333,
+        "best_estimator": "LogisticRegression(C=0.1, class_weight='balanced', max_iter=500,\n                   random_state=42, solver='saga')"
+    }
+}
